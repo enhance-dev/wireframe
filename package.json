@@ -1,0 +1,22 @@
+{
+  "name": "@enhance/wireframe",
+  "version": "1.0.0",
+  "description": "Enhance wireframe component set and basis for your own design systems",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enhance-dev/wireframe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/enhance-dev/wireframe/issues"
+  },
+  "homepage": "https://github.com/enhance-dev/wireframe#readme"
+}
