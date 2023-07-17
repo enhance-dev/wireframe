@@ -25,21 +25,10 @@ export default function AppLayout({ html }) {
 
       ::slotted([slot='sidebar']) {
         grid-area: sidebar;
-        position: fixed;
-        top: var(--layout-header-height, var(--default-header-height));
-        right: 0;
-        bottom: 0;
-        left: 0;
-        translate: -100% 0;
-        transition: var(--layout-sidebar-transition, var(--default-sidebar-transition));
       }
 
       ::slotted([slot='footer']) {
         grid-area: footer;
-      }
-
-      [slot='header']:has(input[type='checkbox']:checked) + [slot='sidebar'] {
-        translate: 0 0;
       }
 
       @media only screen and (min-width:48em) {
